@@ -1,0 +1,6 @@
+1) wrote the score funciton, the fucntion uses the ngram model and associated score_bitstring function to return a logprob of the 
+partial hypothesis
+2) wrote helper functions extract_mappings and match_symbols, extract mappings converts a partial hypothesis to a list of tuples representing the mappings. match_symbols creates a partially deciphered string with "_" as filler for unkown symbols and a bit string matching the corresponding partial decipherment
+3) wrote the decipher function that converts the symbol to plaintext mappings and the cipher to a plaintext string. 
+4) tested implementation on ceasar cipher to determine if correctly executed, found 100% accuracy on beam_size 30 ex_limit 1 for a simple ceaser cipher.
+5)  Wrote documentation for extract_mappings, score, match_symbols, and decipher. 

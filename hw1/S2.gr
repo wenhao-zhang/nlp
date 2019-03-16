@@ -1,0 +1,483 @@
+#1  +''  ''   +.
+1  +''  ''   +CC
+1  +''  ''   +DT
+1  +''  ''   +NN
+1  +''  ''   +NNS
+1  +''  ''   +PRP
+1  +''  ''   +RB
+1  +''  ''   +WRB
+1  +(  OPENBR   +NN
+1  +)  CLOSEBR   +NN
+1  +, COMMA  +''
+1  +, COMMA  +CON
+1  +, COMMA  +CC
+1  +, COMMA  +DT
+1  +, COMMA  +IN
+1  +, COMMA  +JJ
+1  +, COMMA  +MD
+1  +, COMMA  +NN
+1  +, COMMA  +NNP
+1  +, COMMA  +NNS
+1  +, COMMA  +PRP
+1  +, COMMA  +PRP$
+1  +, COMMA  +RB
+1  +, COMMA  +VB
+1  +, COMMA  +VBD
+1  +, COMMA  +VBG
+1  +, COMMA  +VBZ
+1  +, COMMA  +WP
+1  +, COMMA  +WRB
+1  +.  PUNC   +''
+1  +.  PUNC   +)
+1  +.  PUNC   +.
+1  +CON  CON   +,
+1  +CON CON   +.
+1  +CON CON   +CON
+1  +CON CON   +CC
+1  +CON CON   +CD
+1  +CON CON   +DT
+1  +CON CON   +IN
+1  +CON CON   +JJ
+1  +CON CON   +MD
+1  +CON CON   +NN
+1  +CON CON   +NNP
+1  +CON CON   +NNS
+1  +CON CON   +PRP
+1  +CON CON   +PRP$
+1  +CON CON   +RB
+1  +CON CON   +VBD
+1  +CON CON   +VBG
+1  +CON CON   +VBN
+1  +CON CON   +WP
+1  +CON CON   +WRB
+1  +CC  CC   +CON
+1  +CC  CC   +DT
+1  +CC  CC   +IN
+1  +CC  CC   +JJ
+1  +CC  CC   +MD
+1  +CC  CC   +NN
+1  +CC  CC   +NNP
+1  +CC  CC   +NNS
+1  +CC  CC   +PRP
+1  +CC  CC   +PRP$
+1  +CC  CC   +RB
+1  +CC  CC   +TO
+1  +CC  CC   +VB
+1  +CC  CC   +WP
+1  +CD  CD   +,
+1  +CD  CD   +.
+1  +CD  CD   +CON
+1  +CD  CD   +JJ
+1  +CD  CD   +NN
+1  +CD  CD   +NNS
+1  +CD  CD   +VBZ
+1  +DT  DT   +''
+1  +DT  DT   +,
+1  +DT  DT   +.
+1  +DT  DT   +CON
+1  +DT  DT   +CD
+1  +DT  DT   +DT
+1  +DT  DT   +IN
+1  +DT  DT   +JJ
+1  +DT  DT   +JJS
+1  +DT  DT   +NN
+1  +DT  DT   +NNP
+1  +DT  DT   +NNS
+1  +DT  DT   +POS
+1  +DT  DT   +PRP
+1  +DT  DT   +PRP$
+1  +DT  DT   +RB
+1  +DT  DT   +RBR
+1  +DT  DT   +VB
+1  +DT  DT   +VBG
+1  +DT  DT   +VBN
+1  +DT  DT   +VBP
+1  +DT  DT   +VBZ
+1  +DT  DT   +WP
+1  +DT  DT   +``
+1  +EX  EX   +VBP
+1  +IN  IN   +''
+1  +IN  IN   +,
+1  +IN  IN   +.
+1  +IN  IN   +CON
+1  +IN  IN   +CC
+1  +IN  IN   +CD
+1  +IN  IN   +DT
+1  +IN  IN   +IN
+1  +IN  IN   +JJ
+1  +IN  IN   +NN
+1  +IN  IN   +NNP
+1  +IN  IN   +NNS
+1  +IN  IN   +POS
+1  +IN  IN   +PRP
+1  +IN  IN   +PRP$
+1  +IN  IN   +RB
+1  +IN  IN   +RBR
+1  +IN  IN   +TO
+1  +IN  IN   +VBG
+1  +IN  IN   +WDT
+1  +IN  IN   +WRB
+1  +JJ  JJ   +,
+1  +JJ  JJ   +.
+1  +JJ  JJ   +CON
+1  +JJ  JJ   +CC
+1  +JJ  JJ   +CD
+1  +JJ  JJ   +DT
+1  +JJ  JJ   +IN
+1  +JJ  JJ   +JJ
+1  +JJ  JJ   +NN
+1  +JJ  JJ   +NNP
+1  +JJ  JJ   +NNS
+1  +JJ  JJ   +PRP
+1  +JJ  JJ   +RB
+1  +JJ  JJ   +TO
+1  +JJ  JJ   +VBG
+1  +JJ  JJ   +VBN
+1  +JJR  JJR   +.
+1  +JJR  JJR   +NNS
+1  +JJS  JJS   +CC
+1  +JJS  JJS   +IN
+1  +JJS  JJS   +NN
+1  +MD  MD   +CON
+1  +MD  MD   +JJ
+1  +MD  MD   +NN
+1  +MD  MD   +PRP
+1  +MD  MD   +RB
+1  +MD  MD   +VB
+1  +MD  MD   +WP
+1  +NN  NN   +''
+1  +NN  NN   +(
+1  +NN  NN   +,
+1  +NN  NN   +CON
+1  +NN  NN   +CC
+1  +NN  NN   +CD
+1  +NN  NN   +DT
+1  +NN  NN   +IN
+1  +NN  NN   +JJ
+1  +NN  NN   +MD
+1  +NN  NN   +NN
+1  +NN  NN   +NNP
+1  +NN  NN   +NNS
+1  +NN  NN   +POS
+1  +NN  NN   +PRP
+1  +NN  NN   +PRP$
+1  +NN  NN   +RB
+1  +NN  NN   +TO
+1  +NN  NN   +VB
+1  +NN  NN   +VBD
+1  +NN  NN   +VBG
+1  +NN  NN   +VBN
+1  +NN  NN   +VBZ
+1  +NN  NN   +WDT
+1  +NN  NN   +WP$
+1  +NN  NN   +WRB
+1  +NNP  NNP   +''
+1  +NNP  NNP   +.
+1  +NNP  NNP   +CON
+1  +NNP  NNP   +CC
+1  +NNP  NNP   +DT
+1  +NNP  NNP   +IN
+1  +NNP  NNP   +NN
+1  +NNP  NNP   +POS
+1  +NNP  NNP   +RB
+1  +NNP  NNP   +VB
+1  +NNP  NNP   +VBD
+1  +NNS  NNS   +.
+1  +NNS  NNS   +CON
+1  +NNS  NNS   +CC
+1  +NNS  NNS   +CD
+1  +NNS  NNS   +DT
+1  +NNS  NNS   +IN
+1  +NNS  NNS   +JJ
+1  +NNS  NNS   +MD
+1  +NNS  NNS   +NN
+1  +NNS  NNS   +PRP
+1  +NNS  NNS   +RB
+1  +NNS  NNS   +TO
+1  +NNS  NNS   +VBD
+1  +NNS  NNS   +VBG
+1  +NNS  NNS   +VBN
+1  +NNS  NNS   +VBP
+1  +NNS  NNS   +VBZ
+1  +NNS  NNS   +WP
+1  +POS  POS   +CON
+1  +POS  POS   +CD
+1  +POS  POS   +DT
+1  +POS  POS   +IN
+1  +POS  POS   +JJ
+1  +POS  POS   +NN
+1  +POS  POS   +NNS
+1  +POS  POS   +PRP$
+1  +POS  POS   +RB
+1  +POS  POS   +VB
+1  +POS  POS   +VBD
+1  +POS  POS   +VBG
+1  +POS  POS   +VBN
+1  +POS  POS   +WP
+1  +PRP  PRP   +CON
+1  +PRP  PRP   +DT
+1  +PRP  PRP   +IN
+1  +PRP  PRP   +JJ
+1  +PRP  PRP   +MD
+1  +PRP  PRP   +NN
+1  +PRP  PRP   +NNP
+1  +PRP  PRP   +NNS
+1  +PRP  PRP   +POS
+1  +PRP  PRP   +PRP
+1  +PRP  PRP   +RB
+1  +PRP  PRP   +TO
+1  +PRP  PRP   +VB
+1  +PRP  PRP   +VBD
+1  +PRP  PRP   +VBG
+1  +PRP  PRP   +VBN
+1  +PRP  PRP   +VBZ
+1  +PRP  PRP   +WP
+1  +PRP  PRP   +``
+1  +PRP$  PRP$   +.
+1  +PRP$  PRP$   +CD
+1  +PRP$  PRP$   +IN
+1  +PRP$  PRP$   +JJ
+1  +PRP$  PRP$   +JJR
+1  +PRP$  PRP$   +NN
+1  +PRP$  PRP$   +NNP
+1  +PRP$  PRP$   +NNS
+1  +PRP$  PRP$   +RB
+1  +PRP$  PRP$   +VBN
+1  +RB  RB   +''
+1  +RB  RB   +,
+1  +RB  RB   +.
+1  +RB  RB   +CON
+1  +RB  RB   +CC
+1  +RB  RB   +DT
+1  +RB  RB   +IN
+1  +RB  RB   +JJ
+1  +RB  RB   +NN
+1  +RB  RB   +NNS
+1  +RB  RB   +POS
+1  +RB  RB   +PRP
+1  +RB  RB   +PRP$
+1  +RB  RB   +RB
+1  +RB  RB   +TO
+1  +RB  RB   +VB
+1  +RB  RB   +VBD
+1  +RB  RB   +VBG
+1  +RB  RB   +VBN
+1  +RB  RB   +WP
+1  +RB  RB   +WRB
+1  +RBR  RBR   +,
+1  +RBR  RBR   +.
+1  +RBR  RBR   +CON
+1  +RBR  RBR   +IN
+1  +RBR  RBR   +NNS
+1  +TO  TO   +.
+1  +TO  TO   +NN
+1  +TO  TO   +PRP
+1  +TO  TO   +PRP$
+1  +TO  TO   +VB
+1  +TO  TO   +VBN
+1  +TO  TO   +VBZ
+1  +UH  UH   +,
+1  +UH  UH   +.
+1  +UH  UH   +CON
+1  +UH  UH   +NN
+1  +UH  UH   +PRP
+1  +UH  UH   +RB
+1  +VB  VB   +''
+1  +VB  VB   +.
+1  +VB  VB   +CON
+1  +VB  VB   +CC
+1  +VB  VB   +CD
+1  +VB  VB   +DT
+1  +VB  VB   +IN
+1  +VB  VB   +JJ
+1  +VB  VB   +NN
+1  +VB  VB   +NNP
+1  +VB  VB   +NNS
+1  +VB  VB   +POS
+1  +VB  VB   +PRP
+1  +VB  VB   +PRP$
+1  +VB  VB   +RB
+1  +VB  VB   +TO
+1  +VB  VB   +VB
+1  +VB  VB   +VBN
+1  +VB  VB   +WP
+1  +VB  VB   +``
+1  +VBD  VBD   +.
+1  +VBD  VBD   +CON
+1  +VBD  VBD   +CD
+1  +VBD  VBD   +DT
+1  +VBD  VBD   +IN
+1  +VBD  VBD   +JJ
+1  +VBD  VBD   +JJR
+1  +VBD  VBD   +NN
+1  +VBD  VBD   +PRP
+1  +VBD  VBD   +PRP$
+1  +VBD  VBD   +RB
+1  +VBD  VBD   +RBR
+1  +VBD  VBD   +TO
+1  +VBD  VBD   +VB
+1  +VBD  VBD   +VBN
+1  +VBG  VBG   +,
+1  +VBG  VBG   +.
+1  +VBG  VBG   +CON
+1  +VBG  VBG   +CD
+1  +VBG  VBG   +DT
+1  +VBG  VBG   +IN
+1  +VBG  VBG   +NN
+1  +VBG  VBG   +NNP
+1  +VBG  VBG   +NNS
+1  +VBG  VBG   +PRP
+1  +VBG  VBG   +PRP$
+1  +VBG  VBG   +RB
+1  +VBG  VBG   +RBR
+1  +VBG  VBG   +TO
+1  +VBG  VBG   +VBD
+1  +VBG  VBG   +VBN
+1  +VBN  VBN   +,
+1  +VBN  VBN   +.
+1  +VBN  VBN   +CC
+1  +VBN  VBN   +CD
+1  +VBN  VBN   +DT
+1  +VBN  VBN   +IN
+1  +VBN  VBN   +NN
+1  +VBN  VBN   +NNP
+1  +VBN  VBN   +NNS
+1  +VBN  VBN   +PRP
+1  +VBN  VBN   +PRP$
+1  +VBN  VBN   +RB
+1  +VBN  VBN   +RBR
+1  +VBN  VBN   +TO
+1  +VBN  VBN   +VBG
+1  +VBN  VBN   +VBN
+1  +VBN  VBN   +``
+1  +VBP  VBP   +.
+1  +VBP  VBP   +DT
+1  +VBP  VBP   +IN
+1  +VBP  VBP   +JJ
+1  +VBP  VBP   +NN
+1  +VBP  VBP   +NNP
+1  +VBP  VBP   +NNS
+1  +VBP  VBP   +PRP
+1  +VBP  VBP   +PRP$
+1  +VBP  VBP   +RB
+1  +VBP  VBP   +VBD
+1  +VBP  VBP   +VBN
+1  +VBZ  VBZ   +.
+1  +VBZ  VBZ   +DT
+1  +VBZ  VBZ   +IN
+1  +VBZ  VBZ   +NN
+1  +VBZ  VBZ   +PRP
+1  +VBZ  VBZ   +PRP$
+1  +VBZ  VBZ   +RB
+1  +VBZ  VBZ   +TO
+1  +VBZ  VBZ   +VBD
+1  +VBZ  VBZ   +VBG
+1  +VBZ  VBZ   +VBN
+1  +VBZ  VBZ   +WP
+1  +VBZ  VBZ   +WRB
+1  +WDT  WDT   +DT
+1  +WDT  WDT   +NNS
+1  +WP  WP   +,
+1  +WP  WP   +.
+1  +WP  WP   +CON
+1  +WP  WP   +DT
+1  +WP  WP   +MD
+1  +WP  WP   +NN
+1  +WP  WP   +NNS
+1  +WP  WP   +POS
+1  +WP  WP   +PRP
+1  +WP  WP   +RB
+1  +WP  WP   +VB
+1  +WP  WP   +VBD
+1  +WP  WP   +VBP
+1  +WP  WP   +VBZ
+1  +WP$  WP$   +NNS
+1  +WRB  WRB   +.
+1  +WRB  WRB   +MD
+1  +WRB  WRB   +NN
+1  +WRB  WRB   +PRP
+1  +WRB  WRB   +RB
+1  +WRB  WRB   +VB
+1  +WRB  WRB   +VBZ
+1  +``  ``   +JJ
+1  +``  ``   +NN
+1  +``  ``   +NNP
+1 +''  ''
+1 +(  (
+1 +)  )
+1 +,  ,
+1 +.  PUNC
+1 +CON CON
+1 +CC  CC
+1 +CD  CD
+1 +DT  DT
+1 +EX  EX
+1 +IN  IN
+1 +JJ  JJ
+1 +JJR  JJR
+1 +JJS  JJS
+1 +MD  MD
+1 +NN  NN
+1 +NN  NN   +.
+1 +NNP  NNP
+1 +NNP  NNP   +,
+1 +NNS  NNS
+1 +NNS  NNS   +,
+1 +POS  POS
+1 +PRP  PRP
+1 +PRP  PRP   +,
+1 +PRP  PRP   +.
+1 +PRP  PRP   +VBP
+1 +PRP$  PRP$
+1 +RB  RB
+1 +RBR  RBR
+1 +TO  TO
+1 +UH  UH
+1 +VB  VB
+1 +VB  VB   +,
+1 +VBD  VBD
+1 +VBG  VBG
+1 +VBN  VBN
+1 +VBP  VBP
+1 +VBZ  VBZ
+1 +WDT  WDT
+1 +WP  WP
+1 +WP$  WP$
+1 +WRB  WRB
+1 +``  ``
+1 S2  +''
+#1 S2  +(
+#1 S2  +)
+#1 S2  +,
+#1 S2  +.
+#1 S2  +CON
+1 S2  +CC
+1 S2  +CD
+1 S2  +DT
+1 S2  +EX
+1 S2  +IN
+1 S2  +JJ
+1 S2  +JJR
+1 S2  +JJS
+1 S2  +MD
+1 S2  +NN
+1 S2  +NNP
+1 S2  +NNS
+1 S2  +POS
+1 S2  +PRP
+1 S2  +PRP$
+1 S2  +RB
+1 S2  +RBR
+1 S2  +TO
+1 S2  +UH
+1 S2  +VB
+1 S2  +VBD
+1 S2  +VBG
+1 S2  +VBN
+1 S2  +VBP
+1 S2  +VBZ
+1 S2  +WDT
+1 S2  +WP
+1 S2  +WP$
+1 S2  +WRB
+1 S2  +``

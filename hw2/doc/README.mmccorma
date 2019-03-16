@@ -1,0 +1,3 @@
+- wrote histogram prune function for the beam search
+- debugged/testing with group to verify baseline correctness using easier ciphers.
+- wrote/edited/contributed to Jupyter notebook.

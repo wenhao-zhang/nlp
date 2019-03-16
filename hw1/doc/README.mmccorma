@@ -1,0 +1,3 @@
+- Worked to parse the devset.trees using script and NTLK to get the baseline grammar rules
+- Script to rearrange the tagged vocab file into proper format
+- Changes to vocab and grammar files to work to improve output score.

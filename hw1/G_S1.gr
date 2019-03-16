@@ -1,0 +1,567 @@
+# The start symbol is TOP.
+
+# These two rules are required; choose their weights carefully!
+# Good Weights when all other weights are set to 1
+# 77  TOP  S1
+# 23  TOP  S2
+77  TOP  S1
+23  TOP  S2
+# in case you use S1.gr by itself
+1 S2     S1
+1  +,   COMMA  +ADJP
+1  +,   COMMA  +CC
+1  +,   COMMA  +INTJ
+1  +,   COMMA  +NP
+1  +,   COMMA  +PP
+1  +,   COMMA  +PRN
+1  +,   COMMA  +S1
+1  +,   COMMA  +SBAR
+1  +,   COMMA  +SQ
+1  +,   COMMA  +VBP
+1  +,   COMMA  +VP
+1  +,   COMMA  +WHADVP
+1  +,   COMMA  +WHNP
+1  +,   COMMA  :
+1  +,   COMMA  INTJ
+1  +,   COMMA  NNS
+1  +,   COMMA  NP
+1  +,   COMMA  PP
+1  +,   COMMA  S1
+1  +,   COMMA  SBAR
+1  +,   COMMA  SQ
+1  +,   COMMA  VP
+1  +:    :   +ADVP
+1  +:    :   +CC
+1  +:    :   +INTJ
+1  +:    :   +NN
+1  +:    :   +NP
+1  +:    :   +S1
+1  +:    :   +SBARQ
+1  +:    :   +SQ
+1  +:    :   +VP
+1  +:    :   +WHADVP
+1  +:    :   ,
+1  +:    :   ADJP
+1  +:    :   INTJ
+1  +:    :   JJ
+1  +:    :   NNS
+1  +:    :   NP
+1  +:    :   PP
+1  +:    :   S1
+1  +:    :   VP
+1  +ADJP ADJP   +,
+1  +ADJP ADJP   PUNC
+1  +ADJP ADJP   :
+1  +ADJP ADJP   NN
+1  +ADJP ADJP   NNS
+1  +ADJP ADJP   PP
+1  +ADVP ADVP   +,
+1  +ADVP ADVP   +:
+1  +ADVP ADVP   +ADJP
+1  +ADVP ADVP   +ADVP
+1  +ADVP ADVP   +NP
+1  +ADVP ADVP   +PP
+1  +ADVP ADVP   +TO
+1  +ADVP ADVP   +VBN
+1  +ADVP ADVP   +VP
+#1  +ADVP ADVP   PUNC
+1  +ADVP ADVP   ADJP
+1  +ADVP ADVP   NP
+1  +ADVP ADVP   PP
+1  +ADVP ADVP   S1
+1  +ADVP ADVP   SBAR
+1  +ADVP ADVP   VP
+1  +CC   CC   +,
+1  +CC   CC   +NP
+1  +CC   CC   +PP
+1  +CC   CC   +S1
+1  +CC   CC   +VB
+1  +CC   CC   PUNC
+1  +CC   CC   :
+1  +CC   CC   ADJP
+1  +CC   CC   JJ
+1  +CC   CC   NN
+1  +CC   CC   NNS
+1  +CC   CC   NP
+1  +CC   CC   S1
+1  +CC   CC   SBAR
+1  +CC   CC   VBD
+1  +CC   CC   VP
+1  +CD   CD   NN
+1  +DT   DT   PUNC
+1  +DT   DT   JJS
+1  +DT   DT   NN
+1  +DT   DT   NNP
+1  +DT   DT   RB
+1  +DT   DT   VP
+1  +FRAG FRAG   PUNC
+1  +IN   IN   +:
+1  +IN   IN   PUNC
+1  +IN   IN   DT
+1  +IN   IN   NN
+1  +IN   IN   NP
+1  +IN   IN   PRN
+1  +IN   IN   S1
+1  +INTJ INTJ   +,
+1  +INTJ INTJ   +:
+1  +INTJ INTJ   PUNC
+1  +JJ   JJ   +NP
+1  +JJ   JJ   +POS
+1  +JJ   JJ   PUNC
+1  +JJ   JJ   CD
+1  +JJ   JJ   NN
+1  +JJ   JJ   NNP
+1  +JJ   JJ   NNS
+1  +JJ   JJ   PP
+1  +JJ   JJ   S1
+1  +JJR  JJR   NNS
+1  +JJS JJS   NN
+1  +JJS JJS   NNS
+1  +MD   MD   +NP
+1  +MD   MD   +VP
+1  +MD   MD   VP
+1  +NN   NN   +NP
+1  +NN   NN   PUNC
+1  +NN   NN   ADVP
+1  +NN   NN   NNP
+1  +NN   NN   NNS
+1  +NN   NN   S1
+1  +NN   NN   SBAR
+1  +NN   NN   VP
+1  +NNP  NNP   +NP
+1  +NNP  NNP   +VP
+1  +NNP  NNP   PUNC
+1  +NNP  NNP   :
+1  +NNP  NNP   NN
+1  +NNS NNS   PUNC
+1  +NNS NNS   JJ
+1  +NP   NP   +,
+1  +NP   NP   +:
+1  +NP   NP   +ADJP
+1  +NP   NP   +ADVP
+1  +NP   NP   +NN
+1  +NP   NP   +NP
+1  +NP   NP   +PP
+1  +NP   NP   +PRT
+1  +NP   NP   +RB
+1  +NP   NP   +SBAR
+1  +NP   NP   +VP
+#1  +NP   NP   ,
+#1  +NP   NP   PUNC
+1  +NP   NP   :
+1  +NP   NP   ADVP
+1  +NP   NP   POS
+1  +NP   NP   PP
+1  +NP   NP   PRT
+1  +NP   NP   S1
+1  +NP   NP   SBAR
+1  +NP   NP   SQ
+1  +NP   NP   VP
+1  +POS POS   INTJ
+1  +POS POS   WHADVP
+1  +PP   PP   +,
+1  +PP   PP   +:
+1  +PP   PP   +NP
+1  +PP   PP   +POS
+1  +PP   PP   +PP
+1  +PP   PP   ,
+1  +PP   PP   PUNC
+1  +PP   PP   :
+1  +PP   PP   ADVP
+1  +PP   PP   NP
+1  +PP   PP   S1
+1  +PP   PP   SBAR
+1  +PRN  PRN   +NN
+1  +PRN  PRN   +VP
+1  +PRP  PRP   +VP
+1  +PRP  PRP   PUNC
+1  +PRP$ PRP$   NNP
+1  +PRT  PRT   PUNC
+1  +PRT  PRT   ADVP
+1  +PRT  PRT   NP
+1  +PRT  PRT   PP
+1  +RB   RB   +ADJP
+1  +RB   RB   +ADVP
+1  +RB   RB   +NP
+1  +RB   RB   +PP
+1  +RB   RB   PUNC
+1  +RB   RB   ADJP
+1  +RB   RB   JJ
+1  +RB   RB   NP
+1  +RB   RB   POS
+1  +RB   RB   PP
+1  +RB   RB   PRN
+1  +RB   RB   VBP
+1  +RB   RB   VP
+1  +S1   S1   +,
+1  +S1   S1   +:
+1  +S1   S1   +NN
+1  +S1   S1   ,
+1  +S1   S1   PUNC
+1  +S1   S1   :
+1  +SBAR SBAR   +,
+1  +SBAR SBAR   PUNC
+1  +SBAR SBAR   :
+1  +SBARQ SBARQ   PUNC
+1  +SQ   SQ   PUNC
+1  +TO   TO   VP
+1  +VB   VB   NP
+1  +VB   VB   PP
+1  +VBD  VBD   NP
+1  +VBG  VBG   ADVP
+1  +VBG  VBG   NN
+1  +VBG  VBG   NNS
+1  +VBG  VBG   NP
+1  +VBN  VBN   +JJ
+1  +VBN  VBN   NP
+1  +VBN  VBN   S1
+1  +VBP  VBP   +,
+1  +VBP  VBP   PUNC
+1  +VBP  VBP   RB
+1  +VP   VP   +,
+1  +VP   VP   +:
+1  +VP   VP   +CC
+1  +VP   VP   +NN
+1  +VP   VP   +NP
+1  +VP   VP   PUNC
+1  +VP   VP   :
+1  +WHADVP WHADVP   +RB
+1  +WHADVP WHADVP   +SQ
+1  +WHNP WHNP   +NP
+1  +WHNP WHNP   +SQ
+1  +WHNP WHNP   SQ
+1  +``   ``   +NP
+#1  ADJP  PUNC
+#1  ADJP  CD
+#1  ADJP  DT
+1  ADJP  JJ
+1  ADJP  JJR
+#1  ADJP  NN
+#1  ADJP  PP
+#1  ADJP  RB
+#1  ADJP  RBR
+1  ADJP  S1
+1  ADJP  SBAR
+#1  ADJP  VB
+#1  ADJP  VBD
+#1  ADJP  VBN
+#1  ADJP  VBP
+#1  ADVP  PUNC
+#1  ADVP  :
+#1  ADVP  DT
+1  ADVP  EX
+1  ADVP  IN
+1  ADVP  JJ
+#1  ADVP  NN
+#1  ADVP  NNP
+1  ADVP  NP
+1  ADVP  RB
+1  ADVP  RBR
+#1  ADVP  UH
+1  ADVP  VP
+1  CONJP RB
+#1  FRAG  PUNC
+1  FRAG  ADVP
+#1  FRAG  CC
+1  FRAG  NP
+1  FRAG  VP
+1  FRAG  WP
+1  FRAG  WRB
+#1  INTJ  PUNC
+#1  INTJ  :
+#1  INTJ  DT
+#1  INTJ  JJ
+#1  INTJ  NN
+#1  INTJ  NNP
+#1  INTJ  PP
+#1  INTJ  RB
+1  INTJ  UH
+#1  INTJ  VB
+1  NP    ,
+#1  NP    PUNC
+#1  NP    :
+#1  NP    ADJP
+#1  NP    ADVP
+#1  NP    CC
+#1  NP    CD
+#1  NP    DT
+#1  NP    EX
+#1  NP    IN
+#1  NP    JJ
+#1  NP    JJR
+#1  NP    MD
+1  NP    NN
+1  NP    NNP
+1  NP    NNS
+#1  NP    POS
+#1  NP    PP
+#1  NP    PRN
+1  NP    PRP
+1  NP    PRP$
+#1  NP    RB
+#1  NP    SBAR
+#1  NP    VB
+#1  NP    VBD
+#1  NP    VBG
+#1  NP    VBN
+#1  NP    VBP
+#1  NP    VBZ
+#1  NP    VP
+1  NP    WDT
+1  NP    WP
+1  PP    ADJP
+1  PP    ADVP
+1  PP    DT
+1  PP    EX
+1  PP    IN
+1  PP    INTJ
+1  PP    NP
+1  PP    PRT
+1  PP    RB
+1  PP    S1
+1  PP    SBAR
+1  PP    TO
+1  PRN   S1
+1  PRT   IN
+1  PRT   NN
+1  S1    ADJP
+1  S1    ADJP   +:
+1  S1    ADJP   +CC
+1  S1    ADJP   +NNS
+1  S1    ADJP   NNP
+1  S1    ADVP
+1  S1    ADVP   +,
+1  S1    ADVP   +:
+1  S1    ADVP   +IN
+1  S1    ADVP   +JJ
+1  S1    ADVP   +NP
+1  S1    ADVP   +VBG
+1  S1    ADVP   +VBN
+1  S1    ADVP   +VP
+1  S1    ADVP   +WHNP
+1  S1    CC   +ADVP
+1  S1    CC   +NP
+1  S1    CC   +PRP
+1  S1    CC   +S1
+1  S1    CC   +VP
+1  S1    CC   +WHNP
+1  S1    CD   +:
+1  S1    CD   +JJ
+1  S1    CONJP   +PP
+1  S1    DT   +ADJP
+1  S1    DT   +ADVP
+1  S1    DT   +CC
+1  S1    DT   +JJ
+1  S1    DT   +JJS
+1  S1    DT   +NN
+1  S1    DT   +NNP
+#1  S1    DT   +POS
+#1  S1    DT   +PRP$
+#1  S1    DT   +RB
+#1  S1    DT   +VBG
+#1  S1    DT   +``
+1  S1    DT   NN
+1  S1    DT   NNP
+1  S1    FRAG   +:
+#1  S1    IN
+1  S1    IN   +:
+#1  S1    IN   +ADVP
+1  S1    IN   +JJ
+1  S1    IN   +NN
+1  S1    IN   +NP
+1  S1    IN   +PRP$
+#1  S1    IN   +S1
+1  S1    INTJ
+1  S1    INTJ   +,
+1  S1    INTJ   +:
+1  S1    INTJ   +VP
+1  S1    JJ   +,
+1  S1    JJ   +CC
+1  S1    JJ   +DT
+1  S1    JJ   +NN
+1  S1    JJ   +NNP
+1  S1    JJ   +NNS
+1  S1    JJ   +NP
+1  S1    JJ   +VP
+1  S1    JJ   NN
+1  S1    JJ   NNP
+1  S1    JJ   NNS
+#1  S1    JJ   PP
+1  S1    MD   +ADVP
+1  S1    MD   +NP
+1  S1    MD   +RB
+1  S1    NN   +,
+1  S1    NN   +ADVP
+1  S1    NN   +CC
+1  S1    NN   +NP
+1  S1    NN   +PP
+1  S1    NNP   +,
+1  S1    NNP   +ADVP
+1  S1    NNP   +CC
+1  S1    NNP   +DT
+1  S1    NNP   +JJ
+1  S1    NNP   +NN
+1  S1    NNP   +NP
+1  S1    NNP   +POS
+1  S1    NNP   +PRT
+1  S1    NNP   +RB
+1  S1    NNP   PUNC
+#1  S1    NNP   :
+#1  S1    NNP   ADVP
+#1  S1    NNP   NN
+1  S1    NNP   POS
+1  S1    NP
+1  S1    NP   +,
+1  S1    NP   +:
+1  S1    NP   +ADJP
+1  S1    NP   +ADVP
+1  S1    NP   +CC
+1  S1    NP   +DT
+1  S1    NP   +MD
+1  S1    NP   +PP
+1  S1    NP   +PRN
+1  S1    NP   +RB
+1  S1    NP   +VBN
+1  S1    NP   +VP
+1  S1    NP   ,
+1  S1    NP   PUNC
+#1  S1    POS   +NNP
+#1  S1    PP
+1  S1    PP   +,
+1  S1    PP   +:
+1  S1    PP   +NP
+1  S1    PP   +RB
+1  S1    PRN   +,
+1  S1    PRN   +:
+1  S1    PRN   +IN
+1  S1    PRP   +VBP
+1  S1    PRP$   +CC
+1  S1    PRP$   +CD
+1  S1    PRP$   +JJ
+1  S1    PRP$   +JJR
+1  S1    PRP$   +JJS
+1  S1    PRP$   +NN
+1  S1    RB   +ADVP
+1  S1    RB   +DT
+1  S1    RB   +IN
+1  S1    RB   +NP
+1  S1    RB   +VB
+1  S1    RB   +VBG
+1  S1    RB   +VP
+1  S1    RBR   +NNS
+#1  S1    S1   +CC
+#1  S1    S1   +IN
+#1  S1    S1   +RB
+1  S1    SBAR   +,
+1  S1    SBAR   +:
+1  S1    SBAR   +CC
+1  S1    SBAR   +NP
+1  S1    SBAR   +VP
+1  S1    SQ   +,
+1  S1    TO   +NP
+1  S1    TO   +VB
+1  S1    UH   +:
+1  S1    UH   +ADVP
+1  S1    UH   +NP
+1  S1    UH   +VP
+1  S1    VB   +ADJP
+1  S1    VB   +ADVP
+1  S1    VB   +NP
+1  S1    VB   +PP
+1  S1    VB   +PRT
+1  S1    VB   +S1
+1  S1    VB   +``
+1  S1    VB   NNP
+1  S1    VB   NP
+1  S1    VB   PP
+1  S1    VBD   +ADVP
+1  S1    VBD   +CC
+1  S1    VBD   +NP
+1  S1    VBD   +RB
+1  S1    VBD   PP
+1  S1    VBG   +:
+1  S1    VBG   +NP
+1  S1    VBG   +PP
+1  S1    VBG   +PRT
+1  S1    VBG   ADVP
+1  S1    VBN   +NP
+1  S1    VBN   +PRT
+1  S1    VBN   +SBAR
+1  S1    VBN   NP
+1  S1    VBN   PP
+1  S1    VBP   +,
+1  S1    VBP   +ADJP
+1  S1    VBP   +ADVP
+1  S1    VBP   +JJ
+1  S1    VBP   +NP
+1  S1    VBP   +RB
+1  S1    VBP   +VBN
+1  S1    VBP   NNP
+1  S1    VBP   NP
+1  S1    VBZ
+1  S1    VBZ   +,
+1  S1    VBZ   +ADJP
+1  S1    VBZ   +ADVP
+1  S1    VBZ   +NP
+1  S1    VBZ   +PP
+1  S1    VBZ   +RB
+#1  S1    VP
+1  S1    VP   +,
+1  S1    VP   +:
+1  S1    VP   +CC
+1  S1    VP   +NN
+1  S1    WHADVP   +SQ
+1  S1    WHNP   +,
+1  S1    WHNP   +:
+1  S1    WHNP   +ADVP
+1  S1    WHNP   +FRAG
+1  S1    WHNP   +S1
+1  S1    WHNP   +SQ
+1  S1    WP$   +NNS
+1  S1    WRB   +NP
+1  SBAR  IN
+1  SBAR  NP
+1  SBAR  S1
+1  SBAR  SQ
+1  SBAR  WHADVP
+1  SBAR  WHNP
+1  SBAR  WHPP
+1  SBARQ SQ
+1  SBARQ WHNP
+1  SQ    NP
+1  SQ    S1
+1  SQ    VBD
+1  SQ    VBP
+1  SQ    VBZ
+1  SQ    VP
+#1  VP    ADJP
+#1  VP    ADVP
+#1  VP    IN
+#1  VP    JJ
+1  VP    MD
+#1  VP    NN
+#1  VP    NNP
+#1  VP    NNS
+#1  VP    NP
+#1  VP    POS
+1  VP    PP
+1  VP    PRT
+#1  VP    RB
+1  VP    S1
+#1  VP    SBAR
+1  VP    TO
+1  VP    VB
+1  VP    VBD
+1  VP    VBG
+1  VP    VBN
+1  VP    VBP
+1  VP    VBZ
+#1  WHADVP NN
+1  WHADVP WRB
+1  WHNP  VBD
+1  WHNP  WDT
+1  WHNP  WP
+1  WHPP  IN
+1  WHPP  WHNP
+1  X     :
+1  X     IN

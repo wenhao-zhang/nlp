@@ -1,0 +1,13 @@
+For this assignment I functioned as a developer. 
+
+I wrote the scrips to flatten and count occurences of grammar rules we pulled from the devset.trees. Then compiled these rules into a file 
+for S1 and used their counts as weights.
+
+I created one of the word taggers using the nltk pos_tag funciton and then parsed the allowed_words.txt. 
+
+I mined the devset.txt data to gather bigrams based on the suffix words for each individual word. Then complied them into the devset_suffix_word_probs.json
+file with their counts and relative probabilites. Using the suffix json file, I generated the grammar for S2.gr by wrting a script to which creates rules 
+based upon the suffixes. 
+
+Finally, I refiend the grammar files by finding duplicates, searching out wrongly tagged words and correcting them and by running tests
+to determine the optimal weights for the TOP S1 and TOP S2 rules.  

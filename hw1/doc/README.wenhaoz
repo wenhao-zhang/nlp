@@ -1,0 +1,6 @@
+-Created alternative script for tagging using nltk. The function used was pos_tag.function. The difference between the script was, 
+my script did not use word_tokenize function to tokenize the words. This changed how some of the words were tokenized.
+-Create a script to parse devset.txt to form a vocab for comparison. 
+-I recatagorized some of the words in the vocab file that was tagged wrong by nltk pos_tag.
+-Helped refine the S1 and S2 grammar files.
+-Research english grammar rules to help provide some insight into how we could potentially do the grammar rules.

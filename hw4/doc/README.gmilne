@@ -1,0 +1,5 @@
+I ran an experiment of setting words that are the same in English and French to a prob value of 1 and it yielded a 2% 
+improvement but we discarded this approach in favour of using model 2. 
+I participated in the group meeting where our group developed a near complete baseline implementation of the algorithm.
+I wrote function and algorithm descriptions in the documentation.
+I ran tests on both model implementation to ensure we were no longer facing the memory error and results were consistent.

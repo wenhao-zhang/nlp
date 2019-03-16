@@ -1,0 +1,7 @@
+For this assignment our group did a lot of pair programming to implement the baseline. 
+However, after our final pair programming session we were still not producing the results we need. 
+The group implemented the perceptron algorithm together but the update_feature function was still not working properly. 
+
+I wrote the first working update_feature function which produced valuable results. 
+However it did not take into account the special feature ‘B’ but the function updated the other 19 features. 
+Once Wenhao wrote the ‘B’ feature update, I began testing the algorithm. Additionally, I also proof read and edited the documentation. 
